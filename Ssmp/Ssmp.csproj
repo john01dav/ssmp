@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <PackageId>Ssmp</PackageId>
-    <Version>0.0.4</Version>
-    <Authors>David Johnson (john01dav@gmail.com), TraceLD</Authors>
-    <PackageDescription>Simple Stateless Message Protocol: library to easily send and recive binary messages in any format between hosts, without dealing with TCP sockets or other low-level details.</PackageDescription>
-    <PackageLicenseUrl>https://github.com/john01dav/ssmp/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/john01dav/ssmp</RepositoryUrl>
+    <PackageId>BetterSsmp</PackageId>
+    <Version>0.0.3</Version>
+    <Authors>TraceLD, David Johnson (john01dav@gmail.com)</Authors>
+    <PackageDescription>Less buggy fork of Ssmp.</PackageDescription>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/TraceLD/BetterSsmp/master/LICENSE.txt</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/TraceLD/BetterSsmp</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

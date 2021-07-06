@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consoleexample", "consoleexample\consoleexample.csproj", "{47064458-33C2-4A63-9B97-03FBF7620B63}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssmp", "Ssmp\Ssmp.csproj", "{F6FCC08F-A907-4783-9246-3DC9AB689F54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssmp.Tests", "Ssmp.Tests\Ssmp.Tests.csproj", "{D7002348-3907-4784-9BB0-3B3CA1D4C29E}"
@@ -22,18 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|x64.Build.0 = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Debug|x86.Build.0 = Debug|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|x64.ActiveCfg = Release|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|x64.Build.0 = Release|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|x86.ActiveCfg = Release|Any CPU
-		{47064458-33C2-4A63-9B97-03FBF7620B63}.Release|x86.Build.0 = Release|Any CPU
 		{F6FCC08F-A907-4783-9246-3DC9AB689F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6FCC08F-A907-4783-9246-3DC9AB689F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6FCC08F-A907-4783-9246-3DC9AB689F54}.Debug|x64.ActiveCfg = Debug|Any CPU

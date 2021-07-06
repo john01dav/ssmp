@@ -1,5 +1,7 @@
 using System.Net.Sockets;
 using System.Threading.Tasks;
+using System;
+using System.IO;
 
 namespace Ssmp.Extensions
 {
@@ -9,9 +11,23 @@ namespace Ssmp.Extensions
         {
             var index = 0;
 
-            while(index < buffer.Length)
+            while (index < buffer.Length)
             {
-                var bytes = await ns.ReadAsync(buffer, index, buffer.Length - index);
+                int bytes;
+
+                try
+                {
+                    bytes = await ns.ReadAsync(buffer.AsMemory(index, buffer.Length - index));
+                }
+                catch (Exception e)
+                {
+                    if (e is IOException or ObjectDisposedException)
+                    {
+                        break;
+                    }
+
+                    throw;
+                }
 
                 if (bytes <= 0)
                 {
